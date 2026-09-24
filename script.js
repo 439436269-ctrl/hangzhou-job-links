@@ -42,6 +42,13 @@ const LINKS = [
     note: "晓天衡宇-晓天睿士平台岗位（杭州，本科/3 年+，更新于 2026-09-23）：专家社区与智能标注平台全栈开发（任务管理、质检验收、AI Agent 辅助标注）；要求 JS/TS + React 或 Java 后端，有 LLM 应用经验优先。",
     added: "2026-09-25",
   },
+  {
+    title: "小红书 · AI 全栈工程师（redshop）",
+    url: "https://job.xiaohongshu.com/social/position/19721",
+    cat: "互联网 / 电商",
+    note: "小红书出海电商 redshop 岗位（上海/杭州，前端开发）：商城交易链路前端（详情/购物车/下单支付）、多语言多币种本地化、笔记种草到一键下单；精通 TypeScript、熟悉 RN，AI 工具已融入工作流，跨境/交易经验优先。",
+    added: "2026-09-25",
+  },
 ];
 
 const listEl = document.getElementById("list");
