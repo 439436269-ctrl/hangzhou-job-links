@@ -35,6 +35,13 @@ const LINKS = [
     note: "ATH-AI创新事业部 Qoder 岗位（杭州，技术类-前端，本科/2 年+, 更新于 2026-09-22）：打造 AI Native 平台与 Agent 核心架构；要求 TS/Node.js + React/Next.js 端到端能力，深度理解 Agent 架构与上下文工程。",
     added: "2026-09-25",
   },
+  {
+    title: "阿里巴巴 · 晓天睿士全栈开发工程师（晓天衡宇）",
+    url: "https://talent-holding.alibaba.com/off-campus/position-detail?lang=zh&positionId=100021200008&track_id=SRPTP1790291253467QEPgrpdfbJ9178",
+    cat: "AI / 数据标注",
+    note: "晓天衡宇-晓天睿士平台岗位（杭州，本科/3 年+，更新于 2026-09-23）：专家社区与智能标注平台全栈开发（任务管理、质检验收、AI Agent 辅助标注）；要求 JS/TS + React 或 Java 后端，有 LLM 应用经验优先。",
+    added: "2026-09-25",
+  },
 ];
 
 const listEl = document.getElementById("list");
