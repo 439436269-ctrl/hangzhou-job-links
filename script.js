@@ -6,6 +6,12 @@ const LINKS = [
     cat: "AI / 大模型",
     note: "Moka 社招页（扫码来源），直达某个岗位的详情页。",
   },
+  {
+    title: "群核科技（酷家乐）· 社会招聘",
+    url: "https://app.mokahr.com/apply/qunhemail/2833#/job/857ee2fb-1d6c-40bd-86db-de011ff52c2c",
+    cat: "互联网 / SaaS",
+    note: "杭州群核信息技术有限公司的 Moka 社招页，直达某个岗位详情。",
+  },
 ];
 
 const listEl = document.getElementById("list");
