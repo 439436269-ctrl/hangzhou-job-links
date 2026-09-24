@@ -5,12 +5,21 @@ const LINKS = [
     url: "https://app.mokahr.com/social-recruitment/zphz/148983#/job/53fcccb6-ce43-451a-aa2c-4020ef6c6c04?from=qrcode&isRecommendation=undefined",
     cat: "AI / 大模型",
     note: "Moka 社招页（扫码来源），直达某个岗位的详情页。",
+    added: "2026-09-25",
   },
   {
     title: "群核科技（酷家乐）· 社会招聘",
     url: "https://app.mokahr.com/apply/qunhemail/2833#/job/857ee2fb-1d6c-40bd-86db-de011ff52c2c",
     cat: "互联网 / SaaS",
     note: "杭州群核信息技术有限公司的 Moka 社招页，直达某个岗位详情。",
+    added: "2026-09-25",
+  },
+  {
+    title: "同花顺 · 社会招聘岗位列表",
+    url: "https://campus.10jqka.com.cn/jobSocial/list?type=social",
+    cat: "金融科技",
+    note: "浙江核新同花顺社招岗位汇总（页面当前 6 个，均在杭州）：算法工程师（量化投资）、大模型开发-摘星计划、机器人机械设计工程师、金融研究员（大模型投研方向）、宏观研究员、行业研究。",
+    added: "2026-09-25",
   },
 ];
 
@@ -98,6 +107,12 @@ function render(query = "") {
       tag.className = "tag";
       tag.textContent = it.cat;
       metaLine.appendChild(tag);
+    }
+    if (it.added) {
+      const added = document.createElement("span");
+      added.className = "added";
+      added.textContent = `添加于 ${it.added}`;
+      metaLine.appendChild(added);
     }
 
     const note = document.createElement("p");
