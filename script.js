@@ -71,6 +71,13 @@ const LINKS = [
     added: "2026-09-25",
     status: "已投",
   },
+  {
+    title: "易方达财富 · Web 前端开发工程师",
+    url: "https://wecruit.hotjob.cn/SU67ac68866202cc7916aea66e/pb/social.html",
+    cat: "金融 / 基金",
+    note: "系统 Web 前端框架设计、功能开发与重构优化；要求硕士及以上（计算机相关专业）、3 年+ Web 前端、扎实 JS/HTML/CSS、有完整 React 项目经验（含架构与规范）。薪资密薪制，参考现薪酬、市场涨幅与面试情况综合评定。",
+    added: "2026-09-25",
+  },
 ];
 
 const listEl = document.getElementById("list");
