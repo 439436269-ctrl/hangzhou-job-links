@@ -56,6 +56,13 @@ const LINKS = [
     note: "量化私募佳期投资开放岗位（技术开发类，上海/北京）：核心系统工程师、算法开发工程师、机器学习平台工程师、高性能计算工程师、数据科学研究员、FPGA 工程师、存储工程师、技术项目经理、基础架构工程师；页面另有量化研究/深度学习/运营团队分类。",
     added: "2026-09-25",
   },
+  {
+    title: "MiniMax · AI 前端工程师",
+    url: "https://www.zhipin.com/web/geek/jobs?city=101020100&query=ai%20%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%20minimax",
+    cat: "AI / 大模型",
+    note: "BOSS直聘上海搜索页（ai 前端工程师 minimax）。对应岗位 JD：MiniMax Agent 相关 Web/桌面端前端，AI Agent 交互体验、工作流界面、多模态展示；要求扎实前端基础，有独立开发/开源/AI 工具实践优先。飞书详情页：https://vrfi1sk8a0.jobs.feishu.cn/index/position/7641118825673247027/detail（显示「Agent 前端工程师-Talkie&星野」，社招·北京/上海）。",
+    added: "2026-09-25",
+  },
 ];
 
 const listEl = document.getElementById("list");
