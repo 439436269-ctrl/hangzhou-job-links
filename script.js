@@ -63,6 +63,14 @@ const LINKS = [
     note: "BOSS直聘上海搜索页（ai 前端工程师 minimax）。对应岗位 JD：MiniMax Agent 相关 Web/桌面端前端，AI Agent 交互体验、工作流界面、多模态展示；要求扎实前端基础，有独立开发/开源/AI 工具实践优先。飞书详情页：https://vrfi1sk8a0.jobs.feishu.cn/index/position/7641118825673247027/detail（显示「Agent 前端工程师-Talkie&星野」，社招·北京/上海）。",
     added: "2026-09-25",
   },
+  {
+    title: "蚂蚁集团 · 前端技术（健康事业群）",
+    url: "https://talent.antgroup.com/off-campus-position?positionId=24071100893841",
+    cat: "互联网 / 大厂",
+    note: "蚂蚁阿福前端 P6 内推（阿福 APP 业务建设、基建创新）。官网岗位：技术类-前端，上海/杭州，本科/3 年+，健康前端产品（医保、问诊、购药、健康管家）。已于 2026-09-25 投递。",
+    added: "2026-09-25",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
@@ -126,7 +134,14 @@ function render(query = "") {
     domain.className = "domain-mini";
     domain.textContent = domainOf(it.url);
 
-    head.append(idxSpan, title, leader, domain);
+    head.append(idxSpan, title);
+    if (it.status) {
+      const st = document.createElement("span");
+      st.className = "status";
+      st.textContent = it.status;
+      head.appendChild(st);
+    }
+    head.append(leader, domain);
 
     const body = document.createElement("div");
     body.className = "card-body";

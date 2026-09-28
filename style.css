@@ -171,6 +171,17 @@ h1 {
   transform: translateY(-4px);
 }
 
+.status {
+  flex: none;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 1px 9px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
 .domain-mini {
   flex: none;
   font-family: var(--mono);
