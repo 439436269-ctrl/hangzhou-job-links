@@ -49,6 +49,13 @@ const LINKS = [
     note: "小红书出海电商 redshop 岗位（上海/杭州，前端开发）：商城交易链路前端（详情/购物车/下单支付）、多语言多币种本地化、笔记种草到一键下单；精通 TypeScript、熟悉 RN，AI 工具已融入工作流，跨境/交易经验优先。",
     added: "2026-09-25",
   },
+  {
+    title: "佳期投资 · 技术开发岗位列表",
+    url: "https://www.jqinvestments.com/positions?title=%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91&id=18&type=init",
+    cat: "量化 / 私募",
+    note: "量化私募佳期投资开放岗位（技术开发类，上海/北京）：核心系统工程师、算法开发工程师、机器学习平台工程师、高性能计算工程师、数据科学研究员、FPGA 工程师、存储工程师、技术项目经理、基础架构工程师；页面另有量化研究/深度学习/运营团队分类。",
+    added: "2026-09-25",
+  },
 ];
 
 const listEl = document.getElementById("list");
