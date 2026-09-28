@@ -150,6 +150,38 @@ const LINKS = [
     added: "2026-09-29",
     status: "已投",
   },
+  {
+    title: "夸克 · 高级 Agent 开发工程师（千问事业部）",
+    url: "https://talent.quark.cn/off-campus/position-detail?lang=zh&positionId=100039620001&track_id=SSP1790637716174KKOjMBYpxz9279",
+    cat: "AI / 大模型",
+    note: "千问事业部-高级Agent开发工程师-杭州（技术类-开发，更新于 2026-09-28）。2026-09-29 投递。",
+    added: "2026-09-29",
+    status: "已投",
+  },
+  {
+    title: "夸克 · 高级前端开发工程师（AI协作工具产品）",
+    url: "https://talent.quark.cn/off-campus/position-detail?lang=zh&positionId=100003740002&track_id=SSP1790637795139cgDrzHaleN6649",
+    cat: "AI / 大模型",
+    note: "千问事业部-高级前端开发工程师-AI协作工具产品（技术类-前端，杭州/广州，更新于 2026-09-28）。2026-09-29 投递。",
+    added: "2026-09-29",
+    status: "已投",
+  },
+  {
+    title: "夸克 · AI 全栈开发专家（运营业务）",
+    url: "https://talent.quark.cn/off-campus/position-detail?lang=zh&positionId=7000003712&track_id=SSP1790637814324ImOOWszgkB1680",
+    cat: "AI / 大模型",
+    note: "千问事业部-AI全栈开发专家-运营业务（技术类-前端，广州，更新于 2026-09-22）。2026-09-29 投递。",
+    added: "2026-09-29",
+    status: "已投",
+  },
+  {
+    title: "夸克 · AI 全栈工程技术专家（千问事业部）",
+    url: "https://talent.quark.cn/off-campus/position-detail?lang=zh&positionId=100023140002&track_id=SSP1790637814324jvZcZOJvof9529",
+    cat: "AI / 大模型",
+    note: "千问事业部-AI全栈工程技术专家-杭州（技术类-开发，更新于 2026-09-20）。2026-09-29 投递。",
+    added: "2026-09-29",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
