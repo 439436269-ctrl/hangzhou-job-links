@@ -190,6 +190,14 @@ const LINKS = [
     added: "2026-09-29",
     status: "已投",
   },
+  {
+    title: "Open Design · 招聘（猎头盼盼）",
+    url: "https://github.com/nexu-io/open-design",
+    cat: "AI / 设计工具",
+    note: "微信猎头顾问盼盼推荐，2026-09-29 投递。开源 Agent-native 设计平台（前身 Refly/龙虾），创始团队来自字节扣子核心成员，base 上海、约 20 人核心团队；GitHub 98K+ star（Apache-2.0/TypeScript），官网 open-design.ai。JD 详见《Open Design.pdf》。",
+    added: "2026-09-29",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
