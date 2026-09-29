@@ -111,7 +111,6 @@ h1 {
   position: relative;
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -133,6 +132,7 @@ h1 {
 }
 .card:hover { border-color: var(--accent); transform: translateY(-1px); }
 .card:hover::before { transform: scaleY(1); }
+a.card { cursor: pointer; }
 
 .card-head {
   display: flex;

@@ -182,6 +182,14 @@ const LINKS = [
     added: "2026-09-29",
     status: "已投",
   },
+  {
+    title: "长鑫存储 · 岗位投递（QQ 邮箱）",
+    url: "",
+    cat: "半导体 / 存储",
+    note: "长鑫存储（CXMT）岗位，通过 QQ 邮箱投递，2026-09-29。暂无在线岗位链接，拿到招聘页地址后可补。",
+    added: "2026-09-29",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
@@ -221,11 +229,14 @@ function render(query = "") {
 
   items.forEach((it, i) => {
     const idx = String(i + 1).padStart(3, "0");
-    const card = document.createElement("a");
-    card.className = "card";
-    card.href = it.url;
-    card.target = "_blank";
-    card.rel = "noopener noreferrer";
+    const card = it.url
+      ? Object.assign(document.createElement("a"), {
+          className: "card",
+          href: it.url,
+          target: "_blank",
+          rel: "noopener noreferrer",
+        })
+      : Object.assign(document.createElement("article"), { className: "card" });
 
     const head = document.createElement("div");
     head.className = "card-head";
@@ -243,7 +254,7 @@ function render(query = "") {
 
     const domain = document.createElement("span");
     domain.className = "domain-mini";
-    domain.textContent = domainOf(it.url);
+    domain.textContent = it.url ? domainOf(it.url) : "无链接 · 邮箱投递";
 
     head.append(idxSpan, title);
     if (it.status) {
@@ -266,10 +277,12 @@ function render(query = "") {
 
     const metaLine = document.createElement("div");
     metaLine.className = "meta-line";
-    const urlSpan = document.createElement("span");
-    urlSpan.className = "domain";
-    urlSpan.textContent = it.url;
-    metaLine.appendChild(urlSpan);
+    if (it.url) {
+      const urlSpan = document.createElement("span");
+      urlSpan.className = "domain";
+      urlSpan.textContent = it.url;
+      metaLine.appendChild(urlSpan);
+    }
     if (it.cat) {
       const tag = document.createElement("span");
       tag.className = "tag";
