@@ -198,6 +198,13 @@ const LINKS = [
     added: "2026-09-29",
     status: "已投",
   },
+  {
+    title: "DeepSeek（幻方量化）· Agent Harness 团队",
+    url: "https://app.mokahr.com/m/social-recruitment/high-flyer/140576#/job/8d40c764-d2b2-49b1-826c-e3f2adb75c01?from=qrcode",
+    cat: "AI / 大模型",
+    note: "DeepSeek（杭州幻方量化）Harness 团队招聘，全职/实习均可，浙江·杭州市 / 北京市。团队理念「Model + Harness = Agent」，把模型能力转化为科研突破与 Agent 产品；招聘方向含深度学习研究员、研发工程师、开发者关系、产品经理、产品设计师、项目经理、产品运营。要求熟练使用 AI Agent 工具做软件开发，熟悉 LLM 与 Agent 机制（LLM API、KV Cache、Agent Loop、Tool Use、Reasoning、Planning、Skills、MCP、Memory、Subagent、Multi-Agent）及 Prompt/Context/Harness Engineering，且是 Agent 产品的高强度用户。链接为扫码来源，直达该团队职位详情。",
+    added: "2026-10-04",
+  },
 ];
 
 const listEl = document.getElementById("list");
