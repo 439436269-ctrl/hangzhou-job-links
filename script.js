@@ -205,6 +205,13 @@ const LINKS = [
     note: "DeepSeek（杭州幻方量化）Harness 团队招聘，全职/实习均可，浙江·杭州市 / 北京市。团队理念「Model + Harness = Agent」，把模型能力转化为科研突破与 Agent 产品；招聘方向含深度学习研究员、研发工程师、开发者关系、产品经理、产品设计师、项目经理、产品运营。要求熟练使用 AI Agent 工具做软件开发，熟悉 LLM 与 Agent 机制（LLM API、KV Cache、Agent Loop、Tool Use、Reasoning、Planning、Skills、MCP、Memory、Subagent、Multi-Agent）及 Prompt/Context/Harness Engineering，且是 Agent 产品的高强度用户。链接为扫码来源，直达该团队职位详情。",
     added: "2026-10-04",
   },
+  {
+    title: "拼多多集团-PDD · 前端工程师（大数据方向）",
+    url: "https://www.quanzhi.com/job/68e71d6c7f2732863ff1c6e4",
+    cat: "互联网 / 电商",
+    note: "上海（技术类，全职，招 1 人）：负责大数据产品的前端架构设计、核心模块开发与性能优化；主导复杂数据可视化组件（图表库、报表引擎、交互式分析界面）的设计实现；建设并维护前端数据可视化通用组件库；解决海量数据渲染、实时数据更新场景下的渲染性能与内存管理问题。要求精通 HTML5/CSS3/JS/TS，熟练 React/Vue 及其生态，有大型数据可视化项目的深度使用与定制开发经验。链接为「全职招聘网」聚合页（JD 原发布于 PDD 官网，聚合页现标注「已结束」）；PDD 社招官网 careers.pddglobalhr.com 的岗位搜索接口在本机被风控拦截（返回 400023），官方直链待补。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
