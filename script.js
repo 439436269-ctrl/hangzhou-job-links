@@ -280,12 +280,19 @@ const LINKS = [
     status: "已投",
   },
   {
-    title: "美团 · 社会招聘岗位详情（jobUnionId 4754065646）",
+    title: "美团 · AI Builder（研发工作流方向）",
     url: "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4754065646&highlightType=social",
     cat: "互联网 / 大厂",
-    note: "美团社会招聘岗位详情页（highlightType=social 即社招，jobUnionId=4754065646）。2026-10-10 已投递，与上一条 jobUnionId=3424768905 是两个不同岗位。⚠️ 美团 /api/* 详情接口全部需登录（401 未登陆/未授权），站点纯前端渲染且本轮无浏览器可用，未能取到岗位名称与城市，标题暂以 jobUnionId 代记，补到岗位名后再改。",
+    note: "美团社会招聘：AI Builder（研发工作流方向），社招（highlightType=social），jobUnionId=4754065646。2026-10-10 已投递。岗位名由用户提供——美团站内 /api/* 详情接口全部需登录（401），站点纯前端渲染，详情无法自动抓取。",
     added: "2026-10-10",
     status: "已投",
+  },
+  {
+    title: "快手 · 社会招聘职位列表（杭州）",
+    url: "https://zhaopin.kuaishou.cn/recruit/e/#/official/social/?workLocationCode=Hangzhou&pageNum=6&positionCategoryCode=J0012",
+    cat: "互联网 / 大厂",
+    note: "快手官方社招频道。URL 已带筛选：workLocationCode=Hangzhou（杭州）、positionCategoryCode=J0012（岗位类别，页面上可看到类别名）；pageNum=6 只是翻页状态，去掉即回到第 1 页。2026-10-10 查看：没有合适岗位，先记下入口备用。",
+    added: "2026-10-10",
   },
 ];
 
