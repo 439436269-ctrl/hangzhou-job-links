@@ -206,10 +206,24 @@ const LINKS = [
     added: "2026-10-04",
   },
   {
+    title: "腾讯 · 招聘搜索页（杭州）",
+    url: "https://careers.tencent.com/search.html",
+    cat: "互联网 / 大厂",
+    note: "腾讯招聘官网搜索入口。杭州岗位较少——2026-10-04 经官方公开接口查到 51 个（同口径全站 2300，深圳 1283、北京 232、上海 212、广州 181、成都 70）。接口 careers.tencent.com/tencentcareer/api/post/Query，cityId 对应：1 深圳 / 2 北京 / 3 上海 / 5 广州 / 7 杭州 / 8 成都；单条岗位页形如 jobdesc.html?postId=xxx。",
+    added: "2026-10-04",
+  },
+  {
     title: "拼多多集团-PDD · 前端工程师（大数据方向）",
     url: "https://www.quanzhi.com/job/68e71d6c7f2732863ff1c6e4",
     cat: "互联网 / 电商",
     note: "上海（技术类，全职，招 1 人）：负责大数据产品的前端架构设计、核心模块开发与性能优化；主导复杂数据可视化组件（图表库、报表引擎、交互式分析界面）的设计实现；建设并维护前端数据可视化通用组件库；解决海量数据渲染、实时数据更新场景下的渲染性能与内存管理问题。要求精通 HTML5/CSS3/JS/TS，熟练 React/Vue 及其生态，有大型数据可视化项目的深度使用与定制开发经验。链接为「全职招聘网」聚合页（JD 原发布于 PDD 官网，聚合页现标注「已结束」）；PDD 社招官网 careers.pddglobalhr.com 的岗位搜索页未给出可直连的岗位地址，官方直链待补。",
+    added: "2026-10-10",
+  },
+  {
+    title: "网易严选 · 全栈开发工程师（AI Coding Agent 方向）",
+    url: "https://hr.163.com/job-detail.html?id=77317",
+    cat: "互联网 / 电商",
+    note: "杭州（技术类，招 1 人，不限学历/年限，更新于 2026-09-21）。网易严选 AI 赋能新型全栈研发岗：依托 Coding Agent 独立完成开发、测试、部署、运维全链路闭环交付，聚焦 AI 编码工具深度落地、Prompt 工程与 Agent 任务编排调优、模型调用成本优化。要求熟练 Vue/React + TS 及工程化，Java/Node.js/Python 任一后端栈，精通数据库设计、SQL 优化与线上排障；核心是能靠 Coding Agent 完成完整全栈交付并调教 Agent。加分项：长期深度使用 Cursor/Claude Code/Codex 等做全栈落地、沉淀过 Prompt 模板与任务编排方案。",
     added: "2026-10-10",
   },
 ];
