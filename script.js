@@ -250,6 +250,20 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
+  {
+    title: "华为 · 社会招聘职位列表（J26 职类）",
+    url: "https://career.huawei.com/cn/social-recruitment-job-list?jobFamilyCodeList=J26",
+    cat: "互联网 / 大厂",
+    note: "华为社会招聘职位列表页（URL 里 jobFamilyCodeList=J26 是职类筛选参数，站点前端渲染，具体职类名称需在页面上看筛选项）。2026-10-10 查看：杭州方向没有找到相关岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
+  {
+    title: "百度 · 社会招聘职位列表",
+    url: "https://talent.baidu.com/jobs/social-list",
+    cat: "互联网 / 大厂",
+    note: "百度社会招聘职位列表页。2026-10-10 查看：没有找到相关岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
