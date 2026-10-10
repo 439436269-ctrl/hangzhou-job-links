@@ -234,6 +234,22 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
+  {
+    title: "网易游戏（互娱）· 全栈开发工程师（蛋仔派对）",
+    url: "https://hr.163.com/job-detail.html?id=76749&lang=zh",
+    cat: "游戏 / 互联网",
+    note: "杭州（游戏程序，招 1 人，不限学历/年限，更新于 2026-06-24）。蛋仔派对项目前后端开发与迭代：参与需求评审与技术方案落地，独立完成前端页面、后端接口与数据库设计，做性能与代码质量优化、线上问题排查；跟踪 AI 在前端/后端的技术演进，引入新工具提升研发效能。要求本科计算机相关、5 年以内前后端经验，熟练 HTML/CSS/JS/TS 与 Vue/React 之一，Go/Python/Java 之一并能做 RESTful API 设计，熟悉关系型数据库及 Redis/MongoDB、Linux、CI/CD 者优先，有 AI 编程助手使用经验者优先。2026-10-10 已投递。",
+    added: "2026-10-10",
+    status: "已投",
+  },
+  {
+    title: "网易游戏（互娱）· 全栈开发工程师",
+    url: "https://hr.163.com/job-detail.html?id=77815&lang=zh",
+    cat: "游戏 / 互联网",
+    note: "杭州（游戏程序，招 1 人，不限学历/年限，更新于 2026-08-28）。JD 正文与 id=76749（蛋仔派对）完全一致，应为同一岗位的新批次/重发，投递时注意别重复。要求本科计算机相关、5 年以内前后端经验，熟练 HTML/CSS/JS/TS 与 Vue/React 之一，Go/Python/Java 之一并能做 RESTful API 设计，熟悉关系型数据库及 Redis/MongoDB、Linux、CI/CD 者优先，有 AI 编程助手使用经验者优先。2026-10-10 已投递。",
+    added: "2026-10-10",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
