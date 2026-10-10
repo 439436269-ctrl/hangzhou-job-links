@@ -264,6 +264,13 @@ const LINKS = [
     note: "百度社会招聘职位列表页。2026-10-10 查看：没有找到相关岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "京东 · 社会招聘职位列表",
+    url: "https://zhaopin.jd.com/web/job/job_info_list/3",
+    cat: "互联网 / 大厂",
+    note: "京东社会招聘职位列表页（zhaopin.jd.com/web/job/job_info_list/3，路径末尾 /3 为社招频道，页面标题即「社会招聘」；站点前端渲染）。2026-10-10 查看：没有找到相关岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
