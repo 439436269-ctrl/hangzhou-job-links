@@ -408,6 +408,43 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
+  {
+    title: "Ateve（前夜实验室）· Agent / Search / AI Infra 研究员",
+    url: "https://offerdao.ai/j/agent_tt12re3gtlc4me",
+    cat: "AI / 搜索基础设施",
+    note: "Ateve 是一家 AI 原生搜索基础设施公司，为 LLM 与 AI Agent 提供 Search（搜索）/ Retrieval（检索）/ Data verification（数据验证）能力。前夜实验室（Ateve Lab Plan）是其面向 agent、search、ai infra 做前沿探索与快速验证的小组——不只研究新的可能，也把它真正做出来。本次招全职 2-3 人（Base 北京 / 杭州）+ 实习生 7-8 人（实习 800-1800 元/天）。要求 Smart·Curious·Builder：会读 paper 也能把 paper 变成 code；**做过 agent，而不是只调用过 agent**；做过 agent platform / search / rag；GitHub 上有真正自己做出来的项目；论文/开源项目/star 加分；计算机·数学·统计·物理背景，海内外一流高校硕博优先；全职 1-3 年经验。2026-10-10 **通过邮箱投递至 join@ateve-inc.com**（邮件主题需注明「Ateve Lab Plan 前夜实验室｜姓名｜学校/公司｜岗位」）。",
+    added: "2026-10-10",
+    status: "已投",
+  },
+  {
+    title: "杭州了不起科技（Labuki）· Agent 工程师",
+    url: "https://offerdao.ai/j/agent_f4wycsfytj8hiw",
+    cat: "AI / Agent",
+    note: "AI Agent 创业公司（Labuki，杭州）多岗开放招聘，本岗属 AGENT 组：把企业级 Agent 从 0 到 1 做成真实可用的产品——设计并实现 AI Agent 产品与技术路线、优化 RAG 召回/准确率/Agent 体验、与产品运营协作打磨真实用户场景。要求 5 年+ 软件开发且具备 0-1 Agent 经验，精通 Python 与至少一种 Agent 框架，理解 Agent 范式、LLM 工作方式与工作流架构。同帖另有 Harness 工程师（AI Agent Runtime/工程控制层）、企业本体建模师、数据质量负责人、国际用工专家、涉外法务。⚠️ 2026-10-10 记录：**看过、未投递**（招聘邮箱 recruit@labukitech.com）。",
+    added: "2026-10-10",
+  },
+  {
+    title: "个性进化 Indievolve · 资深 AI 技术架构师",
+    url: "https://offerdao.ai/j/manual_0tpceh5lthtbln",
+    cat: "AI / 教育科技",
+    note: "个性进化（INDIEVOLVE）是 AI 原生教育科技公司（成员来自 MIT、哈佛、港中文、北师大），把顶尖 AI 能力通过工程手段落地到网络环境差、资源受限的县域和乡村学校，商业模式已在真实环境跑通并产生收益。本岗「资深 AI 技术架构师」：产品线端到端技术负责（一人闭环）；设计边界清晰、可演化的架构；**多 Agent 系统设计与治理**（任务规划、工具调用、记忆、监控，建评测与可观测性，为模型不确定性设计兜底降级）；调用成本与延迟优化；真实场景快速迭代。要求 3 年+ 全栈开发含深度 LLM 应用经验（RAG/Agent/Prompt）且做过真实上线运营的 AI 产品；能独立完成生产级系统架构；后端精通 Python(FastAPI) 或 Java(Spring) 之一，前端 React/Vue，能处理流式响应（SSE/WebSocket）与向量检索；理解多 Agent 核心问题。薪资范畴不设限面议 + 早期期权，地点杭州拱墅区远洋国际中心，汇报对象 CEO，双休+弹性工作。⚠️ 2026-10-10 记录：**看过、未投递**（team@indievolve.com）。同帖另有 CTO / 技术合伙人、创始人助理。",
+    added: "2026-10-10",
+  },
+  {
+    title: "宇生月伴（VUI Labs）· AI Native 全栈工程师",
+    url: "https://offerdao.ai/j/manual_37xadafvtg5n5x",
+    cat: "AI / 语音交互",
+    note: "宇生月伴（VUI Labs）是一家杭州的 AI-native startup（团队含上海交通大学钱彦旻教授团队），专注 real-time voice generation、multimodal interaction、AI companionship 与 AI education，做下一代自然人机交互。本岗「AI Native 全栈工程师」：参与 AI 产品前后端核心功能开发，从需求、方案到上线完整交付；**技术栈不限（Python / TypeScript / Go / Java 均可）**，希望既能写后端，也愿意做前端页面和接口联调；非常鼓励用 AI 工具提升开发效率。要求本科 985 以上。2026-10-10 **通过邮箱投递至 chaijingya@vuilabs.ai**。同帖另有 大模型数据管线/后端开发、AI Infra/推理优化 岗。",
+    added: "2026-10-10",
+    status: "已投",
+  },
+  {
+    title: "Offer岛（offerdao.ai）· AI 求职与行业情报数据源",
+    url: "https://offerdao.ai/",
+    cat: "求职工具 / 数据源",
+    note: "AI 方向求职与行业情报的一站式数据源——**以后找 AI 岗先来这里扫一遍**。能力：① 岗位搜索：按公司 / 岗位 / 地点 / 工作类型（正式·实习·访问·研究助理·PhD·Postdoc）/ 发布时间筛选**已审核**岗位，服务端做多条件 AND 与分页，支持关键词全文检索（如 ACM、ICPC、Agent）；② AI 公司目录；③ 面经攻略；④ 行业资讯（每日 AI 资讯，按资讯/产品/模型/播客/论文/博文分类）。公司目录、面经、资讯**公开无需 key**；岗位搜索与发布需 API key（「我的设置 → API keys」创建）。岗位短链形如 /j/<posting_id>，可直接打开详情页。本机已完成接入：官方 skill 装在 ~/.config/mimocode/skills/offerdao/，daemon 装在 ~/.offerdao/（本地 agent 服务端口 8766），API key 已写入 ~/.offerdao/config.json 可自动复用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
