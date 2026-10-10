@@ -329,6 +329,13 @@ const LINKS = [
     note: "Zoom 中国招聘站的职位列表页（zoomcareer.cn；站点为前端路由，URL 以 #/ 结尾）。2026-10-10 查看：杭州没有前端岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "哔哩哔哩 · 社会招聘职位列表（上海）",
+    url: "https://jobs.bilibili.com/social/positions?code=01&location=%E4%B8%8A%E6%B5%B7&type=3",
+    cat: "互联网 / 大厂",
+    note: "B 站官方社会招聘职位列表，URL 已带筛选：location=上海（URL 编码 %E4%B8%8A%E6%B5%B7）、code=01 与 type=3（职位类别/类型参数，页面上可看到对应名称）。2026-10-10 查看：相关岗位仅在上海、且偏后端方向，与杭州前端/全栈的定位不匹配。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
