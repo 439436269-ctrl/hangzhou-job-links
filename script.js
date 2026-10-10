@@ -396,7 +396,7 @@ const LINKS = [
     title: "影刀 RPA · 岗位详情（positionId 7670352873042331940）",
     url: "https://join.yingdao.com/index/position/7670352873042331940/detail",
     cat: "AI / RPA",
-    note: "杭州分叉智能科技有限公司（影刀 RPA）的岗位，走飞书招聘门户（自建域名 join.yingdao.com）。2026-10-10 已投递。⚠️ 该门户详情页是前端路由，服务端对详情 URL 返回 404、/api/* 也被 CDN 兜底页接管，本轮无浏览器可用，**未能取到岗位名称与 JD**——标题暂以 positionId 代记，把岗位名发我即可补全。公司背景：杭州本土 RPA + AI Agent 厂商，总部在杭州市未来科技城鼎创财富中心 B1 幢，另设北京/上海/深圳/广州/成都/厦门/南京分部，投递邮箱 fc@yingdao.com，招聘门户 https://join.yingdao.com/index/position/list。",
+    note: "杭州分叉智能科技有限公司（影刀 RPA）的岗位，走飞书招聘门户（自建域名 join.yingdao.com）。2026-10-10 已投递。⚠️ 投递后用户自行查询薪资，判断**该司薪资水平偏低、与自身预期不符**，不作为主要目标跟进（投递记录保留备查）。⚠️ 该门户详情页是前端路由，服务端对详情 URL 返回 404、/api/* 亦被 CDN 兜底页接管，未能取到岗位名称与 JD——标题暂以 positionId 代记。公司背景：杭州本土 RPA + AI Agent 厂商，总部在杭州市未来科技城鼎创财富中心 B1 幢，另设北京/上海/深圳/广州/成都/厦门/南京分部，投递邮箱 fc@yingdao.com。",
     added: "2026-10-10",
     status: "已投",
   },
