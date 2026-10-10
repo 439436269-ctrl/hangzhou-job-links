@@ -322,6 +322,13 @@ const LINKS = [
     note: "vivo 官方招聘职位列表。URL 已带筛选：_irjl=杭州（URL 编码 %E6%9D%AD%E5%B7%9E）、_irjc=M1718986166464483330（岗位类别/职位族参数，页面上能看到具体名称）、_p=1 为页码。2026-10-10 查看：没有前端岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "Zoom · 招聘职位列表",
+    url: "https://www.zoomcareer.cn/job-results#/",
+    cat: "互联网 / SaaS",
+    note: "Zoom 中国招聘站的职位列表页（zoomcareer.cn；站点为前端路由，URL 以 #/ 结尾）。2026-10-10 查看：杭州没有前端岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
