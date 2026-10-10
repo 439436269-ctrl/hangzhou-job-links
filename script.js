@@ -308,6 +308,20 @@ const LINKS = [
     note: "滴滴官方社会招聘职位列表页（talent.didiglobal.com/social；URL 里 page/size 只是分页与每页条数的展示参数，size=100 即一页列 100 条）。2026-10-10 查看：没有合适的岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "OPPO · 社会招聘职位列表",
+    url: "https://career.oppo.com/official/oppo/recruitment/post?recruitType=SOCIAL-RECRUITMENT",
+    cat: "硬件 / 消费电子",
+    note: "OPPO 官方招聘的职位列表页（URL 里 recruitType=SOCIAL-RECRUITMENT 即社招频道）。2026-10-10 查看：杭州没有岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
+  {
+    title: "vivo · 招聘职位列表（杭州）",
+    url: "https://hr.vivo.com/jobs?_p=1&_irjl=%E6%9D%AD%E5%B7%9E&_irjc=M1718986166464483330",
+    cat: "硬件 / 消费电子",
+    note: "vivo 官方招聘职位列表。URL 已带筛选：_irjl=杭州（URL 编码 %E6%9D%AD%E5%B7%9E）、_irjc=M1718986166464483330（岗位类别/职位族参数，页面上能看到具体名称）、_p=1 为页码。2026-10-10 查看：没有前端岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
