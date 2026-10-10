@@ -294,6 +294,13 @@ const LINKS = [
     note: "快手官方社招频道。URL 已带筛选：workLocationCode=Hangzhou（杭州）、positionCategoryCode=J0012（岗位类别，页面上可看到类别名）；pageNum=6 只是翻页状态，去掉即回到第 1 页。2026-10-10 查看：没有合适岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "拼多多 · 官方社会招聘（PDD 官网）",
+    url: "https://careers.pddglobalhr.com/jobs",
+    cat: "互联网 / 电商",
+    note: "拼多多集团-PDD 官方社会招聘站（Next.js 应用，同源域名 careers.pinduoduo.com / careers.pddglobalhr.net / careers.pddglobalhr.com）。页面自带「所在城市」与「职位类别」筛选，以及「热招岗位 / 最新发布」两种排序。2026-10-10 记下待投（尚未投递）。此前那条「拼多多集团-PDD · 前端工程师（大数据方向）」是通过「全职招聘网」聚合页收录的、原页已标已结束，官网直链以本条为准。站点数据前端异步加载、服务端 HTML 里岗位数为 0，抓不到统计。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
