@@ -226,6 +226,14 @@ const LINKS = [
     note: "杭州（技术类，招 1 人，不限学历/年限，更新于 2026-09-21）。网易严选 AI 赋能新型全栈研发岗：依托 Coding Agent 独立完成开发、测试、部署、运维全链路闭环交付，聚焦 AI 编码工具深度落地、Prompt 工程与 Agent 任务编排调优、模型调用成本优化。要求熟练 Vue/React + TS 及工程化，Java/Node.js/Python 任一后端栈，精通数据库设计、SQL 优化与线上排障；核心是能靠 Coding Agent 完成完整全栈交付并调教 Agent。加分项：长期深度使用 Cursor/Claude Code/Codex 等做全栈落地、沉淀过 Prompt 模板与任务编排方案。",
     added: "2026-10-10",
   },
+  {
+    title: "网易伏羲 · 机器人平台开发工程师（全栈）",
+    url: "https://hr.163.com/job-detail.html?id=76809&lang=zh",
+    cat: "AI / 机器人",
+    note: "杭州（技术类，招 1 人，本科 / 3-5 年，更新于 2026-09-21）。网易伏羲机器人自动化作业平台全栈岗：核心页面与复杂交互开发，调度平台与智能远控平台（可视化大屏、实时数据看板），BI 报表与数据看板全栈开发（查询接口、数据聚合、前端可视化），边缘端数据可视化与调试工具，能独立完成模块前后端联调闭环。要求熟练 React + 组件化、前端工程化（Vite/Webpack）、Node.js/Python 后端栈、WebSocket 实时通信；能熟练用 Cursor / GitHub Copilot / Claude Code 等 AI 编程工具，并了解 Agent、MCP 等概念。加分：ECharts/D3/Three.js 数据可视化与实时大屏、微前端（qiankun/Module Federation）或 Monorepo、IoT 或机器人设备管理平台、ROS/边缘计算、容器化部署、Tauri/Electron 跨端、Node BFF 或 Next.js SSR。",
+    added: "2026-10-10",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
