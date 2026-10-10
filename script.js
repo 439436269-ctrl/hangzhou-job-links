@@ -400,6 +400,14 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
+  {
+    title: "YouMind · AI 产品全干工程师",
+    url: "https://offerdao.ai/j/69f319f90000000035025aa9",
+    cat: "AI / 内容创作工具",
+    note: "YouMind（玉伯发起的创业项目，杭州；内容创作工具，帖内标签：知名初创 / 正式+实习）。2026-10-10 **通过邮件投递至 contact@youmind.ai**，投的是「AI 产品全干工程师」。该岗位描述：参与 YouMind 入口层（网页、插件、客户端、爬虫等）的产品迭代；探索新的 Agent 功能和玩法，把灵感口喷成 demo，再上线面向用户；不被框死在单一环节。要求：有过完整作品（开源项目/上线产品/副业都行）；**年限不卡**（实习生、校招生、1-2 年、十年老兵都欢迎）；熟练使用 Claude Code / Codex / OpenClaw 等；加分项是本身为创作者、有自媒体账号和粉丝基础。同帖另有 4 个岗位：① 增长工程实习生（前端熟悉、能独立做全栈项目、海外社媒单平台粉丝 1000+）② 产品工程师（AI writing & Editor 方向，加分项 Tiptap/ProseMirror/Slate/Lexical 富文本框架）③ AI Infra 工程师（Agent 基础设施、模型接入/上下文工程/权限体系、写 Skill 与 Prompt、Agent 工程化、加分项熟悉 Claude Code/OpenClaw/Hermes 源码）④ AI Computer 工程师（MicroVM/Firecracker/Sandbox、长期记忆 Agent）。公司福利：不限量使用 Claude Code/Codex 等 Coding agents 且公司报销、高额设备补贴、年度创作补贴（涨粉给现金）、YouCoffee 免费、公司猫狗双全。",
+    added: "2026-10-10",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
