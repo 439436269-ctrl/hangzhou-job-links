@@ -336,6 +336,14 @@ const LINKS = [
     note: "B 站官方社会招聘职位列表，URL 已带筛选：location=上海（URL 编码 %E4%B8%8A%E6%B5%B7）、code=01 与 type=3（职位类别/类型参数，页面上可看到对应名称）。2026-10-10 查看：相关岗位仅在上海、且偏后端方向，与杭州前端/全栈的定位不匹配。",
     added: "2026-10-10",
   },
+  {
+    title: "观猹（Watcha）· 邮件投递（hr@watcha.cn）",
+    url: "https://watcha.cn/",
+    cat: "AI / 社区",
+    note: "观猹（Watcha.cn），定位「前沿科技爱好者聚集地」的 AI 社区/产品，站点为 Nuxt 前端应用。官网没有招聘页或在线投递入口，2026-10-10 通过邮件投递至 hr@watcha.cn，故这里记官网地址 + 投递邮箱备用。",
+    added: "2026-10-10",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
