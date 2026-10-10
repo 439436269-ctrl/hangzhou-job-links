@@ -301,6 +301,13 @@ const LINKS = [
     note: "拼多多集团-PDD 官方社会招聘站（Next.js 应用，同源域名 careers.pinduoduo.com / careers.pddglobalhr.net / careers.pddglobalhr.com）。页面自带「所在城市」与「职位类别」筛选，以及「热招岗位 / 最新发布」两种排序。2026-10-10 记下待投（尚未投递）。此前那条「拼多多集团-PDD · 前端工程师（大数据方向）」是通过「全职招聘网」聚合页收录的、原页已标已结束，官网直链以本条为准。站点数据前端异步加载、服务端 HTML 里岗位数为 0，抓不到统计。",
     added: "2026-10-10",
   },
+  {
+    title: "滴滴 · 社会招聘职位列表",
+    url: "https://talent.didiglobal.com/social?page=1&size=100",
+    cat: "互联网 / 大厂",
+    note: "滴滴官方社会招聘职位列表页（talent.didiglobal.com/social；URL 里 page/size 只是分页与每页条数的展示参数，size=100 即一页列 100 条）。2026-10-10 查看：没有合适的岗位，先记下入口备用。",
+    added: "2026-10-10",
+  },
 ];
 
 const listEl = document.getElementById("list");
