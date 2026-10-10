@@ -438,13 +438,6 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
-  {
-    title: "Offer岛（offerdao.ai）· AI 求职与行业情报数据源",
-    url: "https://offerdao.ai/",
-    cat: "求职工具 / 数据源",
-    note: "AI 方向求职与行业情报的一站式数据源——**以后找 AI 岗先来这里扫一遍**。能力：① 岗位搜索：按公司 / 岗位 / 地点 / 工作类型（正式·实习·访问·研究助理·PhD·Postdoc）/ 发布时间筛选**已审核**岗位，服务端做多条件 AND 与分页，支持关键词全文检索（如 ACM、ICPC、Agent）；② AI 公司目录；③ 面经攻略；④ 行业资讯（每日 AI 资讯，按资讯/产品/模型/播客/论文/博文分类）。公司目录、面经、资讯**公开无需 key**；岗位搜索与发布需 API key（「我的设置 → API keys」创建）。岗位短链形如 /j/<posting_id>，可直接打开详情页。本机已完成接入：官方 skill 装在 ~/.config/mimocode/skills/offerdao/，daemon 装在 ~/.offerdao/（本地 agent 服务端口 8766），API key 已写入 ~/.offerdao/config.json 可自动复用。",
-    added: "2026-10-10",
-  },
 ];
 
 const listEl = document.getElementById("list");
