@@ -271,6 +271,14 @@ const LINKS = [
     note: "京东社会招聘职位列表页（zhaopin.jd.com/web/job/job_info_list/3，路径末尾 /3 为社招频道，页面标题即「社会招聘」；站点前端渲染）。2026-10-10 查看：没有找到相关岗位，先记下入口备用。",
     added: "2026-10-10",
   },
+  {
+    title: "美团 · 社会招聘岗位详情",
+    url: "https://zhaopin.meituan.com/web/position/detail?jobUnionId=3424768905&highlightType=social",
+    cat: "互联网 / 大厂",
+    note: "美团社会招聘岗位详情页（highlightType=social 即社招，jobUnionId=3424768905）。2026-10-10 已投递。⚠️ 该站 /api/* 详情接口需登录（返回 401 未登陆），站点又是纯前端渲染，本次未能取到岗位名称与城市，标题暂以入口代记，补到岗位名后再改。",
+    added: "2026-10-10",
+    status: "已投",
+  },
 ];
 
 const listEl = document.getElementById("list");
