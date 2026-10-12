@@ -438,6 +438,14 @@ const LINKS = [
     added: "2026-10-10",
     status: "已投",
   },
+  {
+    title: "Converge AI · AI Agent 前端开发工程师（Combos 方向）",
+    url: "https://converge.ai/",
+    cat: "AI / Agent 产品",
+    note: "【状态：面试邀约】Converge AI（converge.ai）——AI-native 企业级套件，官网自述「AI-native Suite for Your Whole Business」「All-in-one AI platform—specialized AI products that share context across teams. Automate workflows, deliver real business results without adding headcount.」（专门化 AI 产品跨团队共享上下文、工作流自动化、不靠加人出结果）。产品线：Converge / Enter / Framia / **Combos** / Concat，本岗属 **Combos** 线。**九坤创投被投**（九坤投资系国内头部量化私募，其创投臂）。⚠️ converge.ai 在中国大陆返回「该服务目前暂未在您所在的地区开放」——**大陆不可访问**，判断为面向海外市场/海外架构的团队；面试务必确认**发薪主体**、**期权归属**与**大陆网络能否正常使用其产品与内部系统**。\n\nJD 要点：负责 AI Native 产品的前端架构设计与核心功能开发；参与 AI Agent、多智能体协作、AI Workflow、智能创作、开发者工具等产品前端研发；与产品/设计/算法/后端紧密协作，推动大模型、Agent、MCP、Tool Calling、多模态等能力落地；负责复杂交互场景（Chat、Workflow、可视化编辑器）核心模块；持续优化前端工程化、性能与体验。要求本科+计算机相关、3 年+ 前端、JS/TS 扎实、熟悉 React 与 Next.js、现代前端工程化且能独立负责复杂项目、对 AI 产品与开发者工具有浓厚兴趣。加分项：AI Agent/AI 应用/开发者工具/SaaS/复杂交互产品经验；熟悉 MCP、Function Calling、RAG、Agent Workflow、多 Agent；深度使用 Cursor/Claude Code/GitHub Copilot/Windsurf 并将 AI 融入日常开发；海外或全球化产品、开源项目经验。",
+    added: "2026-10-10",
+    status: "面试邀约",
+  },
 ];
 
 const listEl = document.getElementById("list");
