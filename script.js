@@ -462,9 +462,9 @@ const LINKS = [
   },
   {
     title: "蚂蚁集团 · 大前端研发工程师（AI Native）- 证券",
-    url: "https://talent.antgroup.com/off-campus-position",
+    url: "https://www.jdwatch.work/jobs/jozu3y6fl",
     cat: "互联网 / 大厂",
-    note: "蚂蚁集团社会招聘岗位（证券业务线）。岗位要求以「大前端 + AI Native」为特征：大前端通常覆盖前端 / 跨端（小程序、H5、客户端）与 Node/BFF 全链路；AI Native 指以 AI 原生的方式做研发与产品——把 AI Coding / Agent 工具深度融入日常研发流，并在业务里落地 AI 能力；证券业务域属于强合规场景，对资金安全、实时性（行情/交易）与稳定性要求高。⚠️ 该岗位 JD 原文未能取到：蚂蚁社招站为 SPA，其接口在 hrcareersweb.antgroup.com/api/social/position/*（POST+JSON），已探到但未定位到本岗位的 positionId；此处链接为蚂蚁社招入口页 https://talent.antgroup.com/off-campus-position 。",
+    note: "JD 取自 JDWatch（第三方岗位聚合站）的该岗页面，发布日期 2026-10-09，**工作地点：上海**（⚡ 非杭州）。【岗位职责】① 参与证券核心业务平台的大前端建设，围绕业务增长、机构服务与行情市场扩展等方向，负责**财富移动端 H5、股票产品核心模块、Hybrid 混合开发与容器框架**的设计/研发/优化/演进，保障稳定性、性能与业务体验；② **打破传统前端与客户端界限**，负责大前端架构设计与性能优化（启动、功耗、卡顿、内存、网络、**高频数据渲染**等），引入或研发工具与产品提升研发效率；③ **采用 AI Native 研发模式，参与大前端多 Agent 工程体系建设**，把 **AI Coding、Agentic Workflow** 应用于需求分析、架构设计、编码开发、测试验证、上线交付等大前端研发**全流程**；④ 参与证券领域大前端 **Agent / Context / Knowledge / Skill 等组织级 AI 能力建设**，探索前端智能（AI 辅助交互、UI/代码生成）差异化落地，沉淀可复用领域资产；⑤ 与产品/运营/视觉/后端/算法/测试协作，参与代码评审，端到端交付。【任职要求】① 本科+计算机相关，计算机基础扎实（数据结构、网络、操作系统）；② 大前端能力扎实：JS/CSS/HTML/DOM，**深入理解 React/Vue 设计原理与 Webpack/Vite 等构建工具**；或具备 **Android/iOS/鸿蒙** 开发经验、精通客户端框架原理、掌握 C/C++/Rust 跨平台开发或小程序/WebApp 容器建设者优先；③ 代码质量与架构设计能力；在**绘图、动画、协议、安全、性能（启动/卡顿/内存/网络）优化**方面有实践经验；④ **熟悉 AI Coding、LLM、Agent、Workflow 等 AI 工程技术**，有用 AI 工具辅助研发的实践，愿探索 AI Native 研发模式；⑤ 对**证券、行情、交易、金融数据**等业务有浓厚兴趣或研发经验者优先；⑥ 业务理解、深度分析与解决问题能力，主动性与推动力强。【加分项】有独立产品思考、能以技术驱动业务；**有 Node.js、Go 等后端能力，或有提升工作效率的工具建设经验**。特色标签（节选）：AI Agent / AI-First 研发模式 / 多智能体系统 / 智能研发 / 工作流引擎 / 实时行情 / 跨端技术 / Hybrid App / WebView 容器 / 鸿蒙系统开发经验 / 小程序框架 / 研发效能 / 金融数据。官方投递入口：https://talent.antgroup.com/off-campus-position",
     added: "2026-10-14",
   },
 ];
