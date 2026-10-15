@@ -460,6 +460,13 @@ const LINKS = [
     note: "公司档案（Offer岛）。Meshy AI 是全球领先的生成式 AI 驱动的 3D 内容创建平台：通过文本或图片快速生成高质量、**可编辑**的 3D 资产，约 20-30 秒出模型，可直接投入游戏开发、AR/VR、产品设计与 3D 打印。2021 年成立，创始人**胡渊鸣**（清华姚班、MIT 博士，「太极」Taichi 图形编程语言作者）；2026-09 计算机图形学领军人物**童欣**博士出任首席科学家。累计用户超千万。2026-07 完成 **B 轮近 4 亿美元**融资，投后估值 **15 亿美金**（官方口径超 100 亿人民币）——领投 IDG 资本、经纬中国、Monolith 砺思资本，跟投 Granite Asia、红杉中国、BAI 资本、源码资本。标签：**3D / 世界模型 / Agent**；公司分类：**独角兽**；地点：**北京 / 上海 / 湾区**。官网 https://www.meshy.ai ——⚠️ 请认准此官方域名；另有近似域名 meshyai.net，**非官方渠道**，不要在其上传素材。Offer岛 档案当前无在招岗位，投递需走官网。",
     added: "2026-10-10",
   },
+  {
+    title: "蚂蚁集团 · 大前端研发工程师（AI Native）- 证券",
+    url: "https://talent.antgroup.com/off-campus-position",
+    cat: "互联网 / 大厂",
+    note: "蚂蚁集团社会招聘岗位（证券业务线）。岗位要求以「大前端 + AI Native」为特征：大前端通常覆盖前端 / 跨端（小程序、H5、客户端）与 Node/BFF 全链路；AI Native 指以 AI 原生的方式做研发与产品——把 AI Coding / Agent 工具深度融入日常研发流，并在业务里落地 AI 能力；证券业务域属于强合规场景，对资金安全、实时性（行情/交易）与稳定性要求高。⚠️ 该岗位 JD 原文未能取到：蚂蚁社招站为 SPA，其接口在 hrcareersweb.antgroup.com/api/social/position/*（POST+JSON），已探到但未定位到本岗位的 positionId；此处链接为蚂蚁社招入口页 https://talent.antgroup.com/off-campus-position 。",
+    added: "2026-10-14",
+  },
 ];
 
 const listEl = document.getElementById("list");
